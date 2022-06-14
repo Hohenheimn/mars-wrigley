@@ -2,4 +2,4 @@
 Mars Wrigley project from economist
 
 Website
-https://hohenheimn.github.io/mars-wrigley.io/
+https://hohenheimn.github.io/mars-wrigley/
