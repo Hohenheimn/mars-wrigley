@@ -1,0 +1,45 @@
+// NOT RESPONSIVE
+// 1 rem = browser default font size * 1
+// 1vw = 1% of screen viewports(view)
+
+// RESPONSIVE (example)
+:root{
+    --fs-725: 2.8vw;
+    --fs-600: 1.75vw;
+    --fs-500: 1.25rem;
+    --fs-400: 14px;
+  }
+  
+  @media(min-width: 1366px){
+    :root{
+      --fs-725: 44px;
+      --fs-600: 26px;
+    }
+  }
+  @media(max-width: 1024px){
+    :root{
+      --fs-725: 3.8vw;
+      --fs-600: 2.75vw;
+    }
+  }
+  @media(max-width: 640px){
+    :root{
+      --fs-725: 4.8vw;
+      --fs-600: 3.75vw;
+    }
+  }
+  @media(max-width: 480px){
+    :root{
+      --fs-725: 5.8vw;
+      --fs-600: 4.75vw;
+    }
+  }
+  @media(max-width: 320px){
+    :root{
+      --fs-725: 20px;
+      --fs-600: 18px;
+    }
+  }
+
+
+
